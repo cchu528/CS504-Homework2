@@ -2,20 +2,33 @@
 
 FoodDeliveryApplication
 
-User/Account Service
+##  Status:    
+        Work: 
+            -- Payment Service and Order Delivery Service
+            
+        Not fully work: 
+            -- There is data saving issue in Restaurant Discovery Service and Order Service right now. The inifinite call
+               on the bidirectional relationship of parent and child causes Stack Overflow exception and failed saving. 
+               Will address later.
+               
+        Waiting for implementation:
+            -- Order collection & Simulation Service, Order Distribution Service, MQ, UI, Eureka, and Hystrix stream.
+      
 
-    -- Create an account: with first name, last name, email address, password, phone number, address.
-    -- Sign in: with email address and password
-    -- DB: SQL DB
-    
-Restaurant Service
+## Service start Sequence 
 
-    -- Provide insert/delete/update/search functionalities.    
-    -- Listen to Order messsage.
-    -- Contains all restaurant information including name, address, phone number, open hours, and a list of menus 
-       where menu contains Id, name, description, category, and unitPrice.    
-    --DB: SQL DB
-    
+     1. docker-compose up
+     2. sh ./start-restaurant-discovery-service.sh
+     3. sh ./start-order-service.sh
+     4. sh ./start-payment-service.sh
+     5. sh ./start-order-delivery-service.sh
+
+## To upload Data
+
+     1. go to resturant-discovery-service folder and run ./upload-restaurants.sh
+     2. go to order-service folder and run ./upload-order.sh
+     
+
 Order collection & Simulation Service: Take order.
 
 Order Distribution Service: Distribute order to Order Service.
@@ -33,7 +46,7 @@ Order Service
         o	deliveryAddress
         o	paymentId
         o	timestamp
-        o	estimateDeliveryTime: random generating time between 5 minutes to 1 hour.
+        o	estimateDeliveryTimeInMinutes: random generating time between 5 minutes to 1 hour.
     -- DB: NoSQL DB
     
 Payment Service
@@ -42,7 +55,11 @@ Payment Service
     -- Contains paymentId, cardNumber, securityCode, expirationDate, nameOnCard, zip code, and timestamp.    
     -- DB: SQL DB
     
-MQs for Order Distribution Service and Order Service, and between Order Service and Restaurant Service.
+ Order Delivery Service
+ 
+    -- Calculate estimate delivery time.
+    
+MQs for Order Distribution Service and Order Service.
 
 www.fooddelivery.com/users/
 
