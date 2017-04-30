@@ -1,0 +1,8 @@
+demo/rest/RestaurantDiscoveryServiceRestController.class
+demo/domain/Menu.class
+demo/RestaurantDiscoveryServiceApplication.class
+demo/domain/Restaurant.class
+demo/service/impl/RestaurantDiscoveryServiceImpl.class
+demo/domain/RestaurantRepository.class
+demo/domain/Menu$MenuCategory.class
+demo/service/RestaurantDiscoveryService.class

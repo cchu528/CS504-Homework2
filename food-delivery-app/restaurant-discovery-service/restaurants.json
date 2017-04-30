@@ -1,0 +1,206 @@
+[
+  {
+    "restaurantName": "Restaurant One",
+    "address": "1150 Varnum St NE, Washington, DC 20017",
+    "phoneNumber": "504-000-0001",
+    "menus": [
+      {
+        "menuName": "French Fries",
+        "description": "",
+        "category": "APPETIZER",
+        "price": 2.75
+      },
+      {
+        "menuName": "Buffalo Wings",
+        "description": "Mild, Hot, or BBQ",
+        "category": "APPETIZER",
+        "price": 8.95
+      },
+      {
+        "menuName": "Garden Salad",
+        "description": "Lettuce, tomato, onion, green peppers, cucumbers, croutons",
+        "category": "SALAD",
+        "price": 8.95
+      },
+      {
+        "menuName": "Grilled Chicken Salad",
+        "description": "Marinated chicken, Lettuce, tomato, onion, carrots, egg, croutons",
+        "category": "SALAD",
+        "price": 8.95
+      }
+    ]
+  },
+  {
+    "restaurantName": "Restaurant Two",
+    "address": "1600 Pennsylvania Ave NW, Washington, DC 20500",
+    "phoneNumber": "504-000-0002",
+    "menus": [
+      {
+        "menuName": "Egg Roll",
+        "description": "",
+        "category": "APPETIZER",
+        "price": 2.25
+      },
+      {
+        "menuName": "Scallion Pancakes",
+        "description": "",
+        "category": "APPETIZER",
+        "price": 4.95
+      },
+      {
+        "menuName": "General Tso's Chicken",
+        "description": "",
+        "category": "ENTREE",
+        "price": 14.95
+      },
+      {
+        "menuName": "Kong Pao Shrimp",
+        "description": "",
+        "category": "ENTREE",
+        "price": 15.95
+      }
+    ]
+  },
+  {
+    "restaurantName": "Restaurant Three",
+    "address": "801 Mt Vernon Pl NW, Washington, DC 20001",
+    "phoneNumber": "504-000-0003",
+    "menus": [
+      {
+        "menuName": "Indian Chili Chicken",
+        "description": "Cubes of chicken breast sautted with soya, onions, green chilies, hearbs and exotic spices",
+        "category": "APPETIZER",
+        "price": 9.95
+      },
+      {
+        "menuName": "Fish Pakora",
+        "description": "Fish marinated in chili paste and house spices",
+        "category": "APPETIZER",
+        "price": 8.95
+      },
+      {
+        "menuName": "Lamb Curry",
+        "description": "Tender lamb marinated and cooked in a curry sauce of fresh herbs and spices",
+        "category": "ENTREE",
+        "price": 16.95
+      },
+      {
+        "menuName": "Chicken Karahi",
+        "description": "Boneless chicken with fresh onions, tomatoes, bell peppers and house spices",
+        "category": "ENTREE",
+        "price": 15.95
+      },
+      {
+        "menuName": "Chicken Malai Kabab",
+        "description": "A mild dish, cubes of chicken breast marinated in yogurt, herb and spices then cooked on skewers in tandoor",
+        "category": "ENTREE",
+        "price": 15.95
+      }
+    ]
+  },
+  {
+    "restaurantName": "Restaurant Four",
+    "address": "3800 Reservoir Rd NW, Washington, DC 20007",
+    "phoneNumber": "504-000-0004",
+    "menus": [
+      {
+        "menuName": "Egg Roll",
+        "description": "",
+        "category": "APPETIZER",
+        "price": 2.25
+      },
+      {
+        "menuName": "Scallion Pancakes",
+        "description": "",
+        "category": "APPETIZER",
+        "price": 4.95
+      },
+      {
+        "menuName": "General Tso's Chichen",
+        "description": "",
+        "category": "ENTREE",
+        "price": 14.95
+      },
+      {
+        "menuName": "Kong Pao Shrimp",
+        "description": "",
+        "category": "ENTREE",
+        "price": 15.95
+      },
+      {
+        "menuName": "Mixed Green Salad",
+        "description": "",
+        "category": "SALAD",
+        "price": 4.95
+      }
+    ]
+  },
+  {
+    "restaurantName": "Restaurant Five",
+    "address": "8th & I Streets SE, Washington, DC 20003",
+    "phoneNumber": "504-000-0005",
+    "menus": [
+      {
+        "menuName": "Grilled Beef Grape Leaves",
+        "description": "",
+        "category": "APPETIZER",
+        "price": 9.25
+      },
+      {
+        "menuName": "Summer Rolls (2)",
+        "description": "Soft rolls filled w/ stir fried mixed veggie and tofu",
+        "category": "APPETIZER",
+        "price": 6.25
+      },
+      {
+        "menuName": "Chicken Rice Vermicelli Soup",
+        "description": "",
+        "category": "SOUP",
+        "price": 4.95
+      },
+      {
+        "menuName": "Crisp Boneless Tangerine Duck",
+        "description": "Marinade and roasted till golden brown, top with house tangerine sauce",
+        "category": "ENTREE",
+        "price": 22.95
+      },
+      {
+        "menuName": "Caramel Pork with Cracked Pepper",
+        "description": "Cubes of lean pork stewed slowly w/ coconut juice & three kind of peppers",
+        "category": "ENTREE",
+        "price": 13.95
+      }
+    ]
+  },
+  {
+    "restaurantName": "Restaurant Six",
+    "address": "3450 Massachusetts Ave NW, Washington, DC 20392",
+    "phoneNumber": "504-000-0006",
+    "menus": [
+      {
+        "menuName": "Pad Thai",
+        "description": "Stir-fried thin rice noodles with tofu, egg, bean sprouts and ground peanuts in tradictional seanoning.",
+        "category": "ENTREE",
+        "price": 12.95
+      },
+      {
+        "menuName": "Drunken Noodle",
+        "description": "Stir-fried jumbo rice noodles or thin rice noodles with Thai basil, onions and bell peppers in chili garlic sauce.",
+        "category": "APPETIZER",
+        "price": 12.95
+      },
+      {
+        "menuName": "Lemongrass Soup",
+        "description": "Tranditional Thai hot and sour soup with mushrooms and scallions in lemongrass chili broth with your choice of vegetable, chicken, shrimp or tofu.",
+        "category": "SOUP",
+        "price": 4.95
+      },
+      {
+        "menuName": "Garden Salad",
+        "description": "Lettuce or spring mix, red onion, bell peppers, tomatoes, cucumbers and mushroom with the choice of dressing.",
+        "category": "SALAD",
+        "price": 5.95
+      }
+    ]
+  }
+]
