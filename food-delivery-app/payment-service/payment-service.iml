@@ -84,7 +84,7 @@
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-rest-hal-browser:2.4.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.13" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.13" level="project" />
-    <orderEntry type="library" name="Maven: com.h2database:h2:1.4.190" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.37" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.6" level="project" />
