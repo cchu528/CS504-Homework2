@@ -31,8 +31,7 @@ public class FoodItem {
     private String note;
 
     @ManyToOne
-    @JoinColumn(name="order_id", nullable = false)
-    @JsonBackReference
+    @JoinColumn(name="order_id")
     private Order order;
 
     @JsonCreator

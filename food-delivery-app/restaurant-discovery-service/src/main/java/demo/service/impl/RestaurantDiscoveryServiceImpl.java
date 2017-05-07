@@ -9,6 +9,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
@@ -23,6 +24,7 @@ public class RestaurantDiscoveryServiceImpl implements RestaurantDiscoveryServic
 
 
     @Override
+    @Transactional
     public Iterable<Restaurant> saveRestaurants(List<Restaurant> restaurants) {
         return this.repository.save(restaurants);
     }

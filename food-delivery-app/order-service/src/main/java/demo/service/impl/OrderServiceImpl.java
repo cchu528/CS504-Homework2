@@ -55,7 +55,7 @@ public class OrderServiceImpl implements OrderService {
         log.info("return from Order Delivery Service.");
 
         // TO DO: Need to fix the infinite issue due to the bidirectional reltionship of parent and child.
-        // order = orderRepository.save(orderInfo.getOrder());
+        order = orderRepository.save(orderInfo.getOrder());
 
         return returnOrder;
     }

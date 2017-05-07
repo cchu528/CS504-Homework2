@@ -30,8 +30,7 @@ public class Order {
     @Column(name = "delivery_address")
     private String deliveryAddress;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = EAGER, orphanRemoval = true, mappedBy = "order")
-    @JsonManagedReference
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "order")
     private Set<FoodItem> items = new HashSet<>();
 
     @Column(name = "payment_id")

@@ -39,7 +39,6 @@ public class Menu {
 
     @ManyToOne
     @JoinColumn(name="restaurant_id")
-    @JsonBackReference
     private Restaurant restaurant;
 
     @JsonCreator

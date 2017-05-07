@@ -36,7 +36,6 @@ public class Restaurant {
     private String phoneNumber;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "restaurant")
-    @JsonManagedReference
     private Set<Menu> menus = new HashSet<>();
 
     @JsonCreator
